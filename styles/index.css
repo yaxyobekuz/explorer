@@ -16,3 +16,46 @@ body {
   padding: 0px 20px;
   margin: 0px auto;
 }
+
+/* Header */
+.main-bg {
+  background-image: url("../images/main-bg.jpg");
+  background-size: cover;
+}
+
+.main-bg-backdrop {
+  backdrop-filter: brightness(40%);
+}
+
+.header {
+  padding: 60px 0px;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+  align-items: center;
+  max-width: 840px;
+}
+
+.logo {
+  width: 176px;
+  height: 40px;
+}
+
+.header-list {
+  display: flex;
+  column-gap: 24px;
+  list-style: none;
+}
+
+.header-list-item-link {
+  padding: 14px 0px;
+  font-size: 11px;
+  line-height: 14px;
+  letter-spacing: 1.3px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+}
