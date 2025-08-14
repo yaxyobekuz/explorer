@@ -146,3 +146,39 @@ body {
   text-decoration: none;
   color: #8d4fdb;
 }
+
+/* Read more section */
+.read-section {
+}
+
+.read-section-container {
+  max-width: 840px;
+}
+
+.read-section-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 21px;
+  background: #f1f1f1;
+  padding: 49px 0 60px 0;
+}
+
+.read-section-title {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+}
+
+.read-section-link {
+  background: #8d4fdb;
+  padding: 8px 25px;
+  border-radius: 3px;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 30px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #ffffff;
+}
